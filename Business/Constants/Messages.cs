@@ -9,12 +9,12 @@ namespace Business.Constants
     {
         public static string ProductAdded = "Ürün eklendi";
         public static string ProductNameInvalid = "Ürün ismi geçersiz";
-        internal static string MaintenanceTime = "Sistem bakımda";
+        readonly static string MaintenanceTime = "Sistem bakımda";
         internal static string ProductsListed = "Ürünler listelendi";
         public static string ProductCountOfCategoryError = "Bir kategoride en fazla 10 ürün olabilir";
         public static string ProductNameAlreadyExists = "Ürün ismi sistemde var";
         public static string CategoryLimitExceded = "maksimum kategori sayısında olduğunuzdan sisteme ürün eklenemiyor";
-        public static string AuthorizationDenied = "bu işlemi yapmaya yetkiniz yok";
+        readonly static string AuthorizationDenied = "bu işlemi yapmaya yetkiniz yok";
         public static string UserRegistered = "kullanıcı kaydedildi";
         public static string UserNotFound = "kullanıcı bulunamadı";
         public static string PasswordError = "şifre hatası";

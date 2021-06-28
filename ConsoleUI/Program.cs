@@ -5,11 +5,11 @@ using DataAccess.Concrete.InMemory;
 
 namespace ConsoleUI
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
-            //ProductTest();
+            
             
         }
 

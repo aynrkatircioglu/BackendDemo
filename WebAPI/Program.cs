@@ -12,7 +12,7 @@ using Business.DependencyResolvers.Autofac;
 
 namespace WebAPI
 {
-    public class Program
+    static class Program
     {
         public static void Main(string[] args)
         {

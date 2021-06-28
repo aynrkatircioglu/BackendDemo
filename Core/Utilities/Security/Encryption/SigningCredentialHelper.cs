@@ -5,7 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace Core.Utilities.Security.Encryption
 {
-    public class SigningCredentialHelper
+    public static class SigningCredentialHelper
     {
 
         public static SigningCredentials CreateSigningCredentials(SecurityKey securityKey)

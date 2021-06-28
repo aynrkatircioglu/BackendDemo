@@ -13,7 +13,7 @@ namespace WebAPI.Controllers
     [ApiController]
     public class AuthController : Controller
     {
-        private IAuthService _authService;
+        readonly IAuthService _authService;
 
         public AuthController(IAuthService authService)
         {
